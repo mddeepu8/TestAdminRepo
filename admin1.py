@@ -14,4 +14,4 @@ def fetch_admins(owner, repo):
     for collaborator in repo.collaborators():
         if collaborator.permissions["admin"]:
             admins.add(collaborator.login)
-return admins
+    return admins
