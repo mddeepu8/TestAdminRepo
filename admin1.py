@@ -2,6 +2,7 @@ from github import Github
 from github import get_github3_client
 # Creating this to mass update all of our repos settings.
 g = Github("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") # Your personal token
+static_gh = None
 def gh():
     global static_gh
     if not static_gh:
