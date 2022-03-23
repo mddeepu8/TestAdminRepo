@@ -67,7 +67,10 @@ jobs:
 
       - name: install python packages
 
-        run: pip install PyGithub
+        run: |
+          pip install PyGithub
+          pip install get_github3_client
+        
 
        
 
